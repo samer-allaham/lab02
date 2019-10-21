@@ -1,6 +1,6 @@
 h1{
     color: black;
-    background-color: grey;
+    background-color: blanchedalmond;
     align-content: center;
     text-align: center;
  }
@@ -9,5 +9,8 @@ p{
     text-align: center;
     text-decoration-color: grey;
     text-decoration-style: dotted;
+    color: grey;
 
  }
+ 
+ 
