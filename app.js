@@ -84,7 +84,7 @@ var points= 0;
 //     // 'well done',
 //     // 'unfortunatlly, i did',
 //     // 'thats true i didnt'
-
+function things(){
 var options = [
     [ name +' ' +'am i from the US?',
         'thats not true!',
@@ -175,7 +175,9 @@ default:
     alert('wrong answer!');
 
   }
+}return options;
 }
+things();
 //   if (ys === 'yes' || answer === 'y') {
 //     // if it's correct, give them a point
 //     userPoints++;
@@ -187,6 +189,13 @@ default:
 //   alert('you have ' + userPoints + ' points.');  
 // }
 // Math.round(Math.random() * 10 + 1);
+
+
+
+// Question 2
+function guessNum() {
+  
+
 var computerGuess = 5;   // the number from computer
 var guess = 4; // the number allowed till the game is over 
 // console.log(computerGuess);
@@ -215,15 +224,21 @@ while (true) {
   } 
 }
 alert('THE CORRECT AnsWER IS  '+ computerGuess);
+return userGuess;
+}
+guessNum();
 
 
+
+// Question 3
+function fruit(){
 var guessanswers =5;
 var quizz = ['give me a yellow furit you have only 5 attempts!',
              'banana',
             'lemon',
             'mango',
             'pears']
-for (i = 0;i<quizz.length;i++)
+for (var i = 0;i<quizz.length;i++)
 {
 
     var questions=quizz[i];
@@ -265,7 +280,9 @@ for (i = 0;i<quizz.length;i++)
     }
     else { 
     alert ('its not a yellow fruit !' + guessanswers--)
-    }}
+    }}return quizz;
+  }
+  fruit();
     alert('YOUR FINAL SCORE ' + points + '  out of 7questions ')
     
     // questions !== 'banana','mango','pears','lemon'
